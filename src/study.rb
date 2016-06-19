@@ -18,6 +18,9 @@ BEGIN {
   i = 10
   puts "this is number #{i + 1}"
   
+  puts __FILE__
+  puts File::basename(__FILE__)
+  
 =begin
   for idx in 1..i
     puts "#{idx}"
